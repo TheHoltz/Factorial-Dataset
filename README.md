@@ -1,20 +1,41 @@
 # Factorial-Dataset
 > Factorial data to make your applications more fast with pre-calculated factorials
-
-Attention: The 5º term is not rounded in the factorials above 170.
-
-
-
-> Descrição curta sobre o que seu projeto faz.
+> Attention: The 5º term is not rounded in the factorials above 170.
 
 [![NPM Version][npm-image]][npm-url]
 
 
 ## Exemplo de uso
 
-Alguns exemplos interessantes e úteis sobre como seu projeto pode ser utilizado. Adicione blocos de códigos e, se necessário, screenshots.
+   fatorialData = {
+   1:1,
+   2:2,
+   3:6,
+   4:24,
+   5:120,
+   6:720,
+   7:5040,
+   8:40320,
+   9:362880,
+   10:3628800,
+   11:39916800,
+   12:479001600,
+   13:6227020800,
+   14:87178291200,
+   15:1307674368000,
+   16:20922789888000,
+   17:355687428096000,
+   .
+   .
+   .
+   }
 
-_Para mais exemplos, consulte a [Wiki][wiki]._ 
+   def fatorial(n):
+       if n >= 171:
+           print("[!] Valor de Fatorial muito grande.")
+           print("[!] Abortando o programa.")
+           sys.exit("Ate logo!")
+       return(fatorialData[n])
 
 ## Histórico de lançamentos
 
