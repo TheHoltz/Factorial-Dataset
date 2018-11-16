@@ -6,7 +6,7 @@
 [![NPM Version][npm-image]][npm-url]
 
 
-## Exemplo de uso
+## Use example
 ```
 fatorialData = {
 1:1,
