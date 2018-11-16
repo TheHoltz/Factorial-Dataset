@@ -38,7 +38,7 @@ def fatorial(n):
 ## Histórico de lançamentos
 
 * 0.1.0
-    * Alteração de [E]([\d]+) para E+$1 (regex)
+    * Alteração de `[E]([\d]+) para E+$1 (regex)`
 * 0.0.1
     * Trabalho em andamento
 
