@@ -6,7 +6,7 @@
 
 
 ## Exemplo de uso
-`
+```
 fatorialData = {
 1:1,
 2:2,
@@ -24,19 +24,20 @@ fatorialData = {
 169:4.26907E+304,
 170:7.25742E+306,
 }
-
+```
+```
 def fatorial(n):
     if n >= 171:
         print("[!] Valor de Fatorial muito grande.")
         print("[!] Abortando o programa.")
         sys.exit("Ate logo!")
     return(fatorialData[n])
- `
+```
 
 ## Histórico de lançamentos
 
 * 0.1.0
-    * Alteração de E^[\d] para e^[+\d]
+    * Alteração de [E]([\d]+) para E+$1 (regex)
 * 0.0.1
     * Trabalho em andamento
 
