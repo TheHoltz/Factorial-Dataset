@@ -37,6 +37,8 @@ def fatorial(n):
 
 ## Histórico de lançamentos
 
+* 0.1.1
+    * Adicionado data-set contendo o fatorial como string.
 * 0.1.0
     * Alteração de `[E]([\d]+) para E+$1 (regex)`
 * 0.0.1
