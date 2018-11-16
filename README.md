@@ -35,7 +35,7 @@ def fatorial(n):
     return(fatorialData[n])
 ```
 
-## Histórico de lançamentos
+## Histórico
 
 * 0.1.1
     * Adicionado data-set contendo o fatorial como string.
