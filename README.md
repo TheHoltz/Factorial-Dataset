@@ -1,2 +1,2 @@
 # Factorial-Dataset
-Factorial up to 170 to use in your applications
+Factorial data to make your applications more fast with pre-calculated factorials
