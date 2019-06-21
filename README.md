@@ -3,8 +3,6 @@
 
 > Attention: The 5º term is not rounded in the factorials above 170.
 
-[![NPM Version][npm-image]][npm-url]
-
 
 ## Use example
 ```
